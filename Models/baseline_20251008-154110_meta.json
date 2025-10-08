@@ -1,0 +1,37 @@
+{
+  "model_file": "..\\Models\\baseline_20251008-154110.joblib",
+  "algo": "RandomForestRegressor",
+  "params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "target": "dividend_ttm_log",
+  "features": [
+    "cpi",
+    "cpi_yoy",
+    "cpi_mom",
+    "unemp",
+    "unemp_mom",
+    "ten_year",
+    "ten_year_mom",
+    "adj_price_log"
+  ],
+  "train_rows": 538,
+  "train_time_sec": 0.584
+}

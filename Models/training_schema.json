@@ -1,0 +1,17 @@
+{
+  "target": "dividend_ttm_log",
+  "features": [
+    "cpi",
+    "cpi_yoy",
+    "cpi_mom",
+    "unemp",
+    "unemp_mom",
+    "ten_year",
+    "ten_year_mom",
+    "adj_price_log"
+  ],
+  "train_rows": 538,
+  "val_rows": 115,
+  "train_source": "Data/week4_train.csv",
+  "val_source": "Data/week4_valid.csv"
+}
