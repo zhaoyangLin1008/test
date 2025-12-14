@@ -1,0 +1,24 @@
+Week 14 Assignment 
+
+Peer Review 
+
+GitHub Repo 
+The GitHub repository is well organized and easy to navigate. The overall folder structure makes sense for an applied analytics project and it is clear where data, notebooks, models, and reports are stored. The README gives a solid high level overview of the project and clearly states the goal of the analysis, which helps orient myself and other readers quickly.
+One thing that could be improved is data documentation. The Data directory contains several datasets and subfolders, but it is not always obvious which files are raw inputs versus processed outputs or how each dataset is used in the pipeline. Adding a short data description file or expanding the README to briefly explain the datasets would make the project easier to reproduce for someone new to the repo.
+
+Code 
+The main notebook walks through the full modeling workflow from data loading and feature engineering to model training, evaluation, and saving artifacts. The structure of the notebook is logical and it is clear how the project progresses from start to finish. The use of multiple models and hyperparameter tuning shows that the team explored different approaches rather than relying on a single model.
+The code could be made slightly cleaner by centralizing configuration elements such as file paths and random seeds and removing any unused or empty cells. In a few places, adding short comments explaining why certain modeling choices were made would help improve readability. Overall, the code shows a strong understanding of the modeling process and is easy to follow with minor cleanup.
+
+Code Output 
+The notebook produces clear evaluation output and demonstrates that the pipeline runs end to end. The final deployment test reports test set performance metrics, including MAE, RMSE, and R2, and confirms that predictions and model artifacts are successfully generated. The notebook also includes a bias summary that looks at overall performance and variation in error across companies, which is a good step toward checking model stability.
+The output also includes feature importance results, which help explain which variables are driving the model’s predictions. One area for improvement would be adding a small number of simple plots, such as residual distributions or error by group, to make the evaluation easier to interpret visually. Overall, the outputs are clear and consistent with the goals of the project.
+
+Project Report 
+The project report clearly explains the problem being addressed and walks through the modeling approach in a structured way. The discussion connects the technical work to real world decision making and reflects a good understanding of how the model could be used in practice. The inclusion of fairness and ethical considerations adds depth and shows thoughtful reflection beyond just model performance.
+To strengthen the report further, it could include a more explicit discussion of limitations and assumptions, particularly around data constraints and modeling choices. Expanding on potential improvements or future work would also help contextualize the results. Overall, the report is clear, well written, and demonstrates a strong grasp of the end to end analytics process.
+
+
+
+
+
